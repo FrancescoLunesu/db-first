@@ -1,0 +1,23 @@
+Sviluppare una tabella che riguarda le auto di un concessionario di auto usate.
+La seguente tabella dovrà contenere i dati che possono servire al gestore di attività.
+Pensate prima ai campi che servono,
+poi al tipo di dato che devono conservare ed infine agli attributi.
+
+Nome DB: automobili
+
+ID                      numero incrementale     PRIMARY KEY, UNIQUE, AI
+MARCA                   stringa                 varchar(15)                 NOT NULL
+MODELLO                 stringa                 varchar(30)                 NOT NULL
+IMMATRICOLAZIONE        data                    year                        NOT NULL
+CHILOMETRAGGIO          numero                  float(6,3)                  NOT NULL
+CARBURANTE              stringa                 varchar(15)                 NOT NULL
+POSTI                   numero                  tinyint
+PORTE                   numero                  tinyint
+TIPO DI CAMBIO          stringa                 varchar(10)                 NOT NULL
+CLASSE                  stringa                 varchar(6)                  NOT NULL
+VENDITORE               stringa                 varchar(20)                 NOT NULL
+REVISIONE               date                    year                        NOT NULL
+COLORE                  stringa                 varchar(10)
+INTERNI                 stringa                 varchar(10)
+PROVENIENZA             stringa                 varchar(20)                 NOT NULL
+OPTIONAL                stringa                 text
