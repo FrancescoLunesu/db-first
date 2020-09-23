@@ -9,7 +9,7 @@ ID                      numero incrementale     PRIMARY KEY, UNIQUE, AI
 MARCA                   stringa                 varchar(15)                 NOT NULL
 MODELLO                 stringa                 varchar(30)                 NOT NULL
 IMMATRICOLAZIONE        data                    year                        NOT NULL
-CHILOMETRAGGIO          numero                  float(6,3)                  NOT NULL
+CHILOMETRAGGIO          numero                  float(8,3)                  NOT NULL
 CARBURANTE              stringa                 varchar(15)                 NOT NULL
 POSTI                   numero                  tinyint
 PORTE                   numero                  tinyint
